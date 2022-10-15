@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'dataparentchild';
+  title = 'Send Data Child to parent Component';
+  name: string = "Arpit";
+  updateChild() {
+    this.name = "Shreyansh";
+  }
 }
